@@ -1,0 +1,36 @@
+form{
+  padding: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  width: max-content;
+  label{
+  margin-bottom: 4px;  
+  }
+  input{
+  width: 200px;
+  height: 32px;
+  border-radius: 4px;
+  border: none;  
+  }
+  .inputs{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 12px;
+  
+    div{
+    display: flex; 
+    flex-direction: column; 
+    }
+  }
+  .text{
+  label{
+  display: block; 
+  
+  }  
+  textarea{
+  width: 100%;
+  padding: 4px;   
+  }
+  }
+
+}

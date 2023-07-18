@@ -1,0 +1,37 @@
+header{
+a{
+text-decoration: none;
+color: #FFD233;  
+}
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+height: 200px;
+padding: 0px 20px;
+background-color: #023F6A;
+h1{
+font-size: 4rem; 
+font-family: 'Roboto';
+}
+nav{
+display: flex;
+align-items: center;
+ul{
+display: flex;
+gap: 20px; 
+margin-left: 20px;
+a{
+font-size: 1.5rem;  
+font-family: 'Roboto';
+color: #FFD233; 
+} 
+}  
+}  
+}
+
+main{
+width: 100%;
+height: 100vh; 
+background-color: #23D1B2;
+}
